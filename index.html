@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মাহমুদ আব্বাস (রিফাত) | প্রফেশনাল হোম কেয়ার নার্সিং সেবা - ঢাকা</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Hind Siliguri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        tealBrand: '#0d9488',
+                        tealDark: '#0f766e',
+                        medicalBlue: '#0284c7',
+                        whatsapp: '#25D366'
+                    },
+                    fontFamily: {
+                        sans: ['Hind Siliguri', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        /* Glass effect class */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo/Name -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-xl shadow-md group-hover:bg-teal-700 transition overflow-hidden">
+                    <!-- Nav mini profile image fallback -->
+                    <img src="profile.jpeg" alt="রিফাত" class="w-full h-full object-cover" onerror="this.style.display='none'; document.getElementById('nav-icon').style.display='block';">
+                    <i id="nav-icon" class="fa-solid fa-user-nurse text-2xl hidden"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-bold text-slate-800 tracking-tight leading-tight">নার্স রিফাত</h1>
+                    <p class="text-xs text-teal-600 font-semibold flex items-center gap-1">
+                        <i class="fa-solid fa-location-dot"></i> যাত্রাবাড়ি, ঢাকা
+                    </p>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-teal-600 transition">আমার পরিচয়</a>
+                <a href="#services" class="hover:text-teal-600 transition">সেবাসমূহ</a>
+                <a href="#coverage" class="hover:text-teal-600 transition">সেবার এলাকা</a>
+                <a href="#contact" class="hover:text-teal-600 transition">যোগাযোগ</a>
+            </nav>
+
+            <!-- Quick Action Buttons -->
+            <div class="flex items-center gap-3">
+                <a href="tel:01815665169" class="hidden sm:inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-4 py-2.5 rounded-xl transition border border-slate-200 text-sm">
+                    <i class="fa-solid fa-phone text-teal-600"></i>
+                    <span>০১৮১৫৬৬৫১৬৯</span>
+                </a>
+                <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20আমার%20একটি%20নার্সিং%20সেবা%20প্রয়োজন।" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-4 py-2.5 rounded-xl transition shadow-sm text-sm">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span class="hidden sm:inline">হোয়াটসঅ্যাপ করুন</span>
+                    <span class="sm:hidden">মেসেজ</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-teal-900 via-teal-800 to-slate-900 text-white overflow-hidden py-16 lg:py-24">
+        <!-- Background Pattern Deco -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0,0 L100,0 L100,100 L0,100 Z" fill="none" stroke="currentColor" stroke-width="0.5" stroke-dasharray="2 2"/>
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-teal-500/20 text-teal-200 px-4 py-1.5 rounded-full text-sm font-medium border border-teal-400/30">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                        ২৪/৭ পেশাদার হোম কেয়ার নার্সিং সার্ভিস
+                    </div>
+                    
+                    <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-snug sm:leading-tight">
+                        বাসায় বসেই পান অভিজ্ঞ <span class="text-teal-300 underline decoration-teal-400 underline-offset-8">নার্সিং ও চিকিৎসাসেবা</span>
+                    </h2>
+                    
+                    <p class="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                        আসসালামু আলাইকুম, আমি <strong class="text-white font-semibold">মাহমুদ আব্বাস (রিফাত)</strong>। ঢাকা শহরের যেকোনো স্থানে রোগী পরিচর্যা, স্যালাইন, ইনজেকশন, ক্যাথেটার ও ড্রেসিং সহ সব ধরনের নার্সিং সেবা পৌঁছে দিতে আমি প্রস্তুত।
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="tel:01815665169" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white text-teal-900 font-bold px-7 py-4 rounded-xl shadow-lg hover:bg-teal-50 transition transform hover:-translate-y-0.5 text-lg">
+                            <i class="fa-solid fa-phone-volume text-teal-600"></i>
+                            কল করুন: 01815665169
+                        </a>
+                        <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20আমার%20জরুরি%20নার্সিং%20সেবা%20দরকার।" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-7 py-4 rounded-xl shadow-lg transition transform hover:-translate-y-0.5 text-lg">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            হোয়াটসঅ্যাপে যোগাযোগ
+                        </a>
+                    </div>
+
+                    <!-- Highlights Stats -->
+                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-teal-700/60 max-w-lg mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left">
+                            <p class="text-2xl sm:text-3xl font-bold text-teal-300">১০০%</p>
+                            <p class="text-xs sm:text-sm text-slate-300">বিশ্বস্ত যত্ন</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="text-2xl sm:text-3xl font-bold text-teal-300">দ্রুত</p>
+                            <p class="text-xs sm:text-sm text-slate-300">জরুরি হোম ভিজিট</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="text-2xl sm:text-3xl font-bold text-teal-300">ঢাকা</p>
+                            <p class="text-xs sm:text-sm text-slate-300">প্রধান কেন্দ্র</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Card/Profile Avatar -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md glass-panel bg-white/10 text-white p-8 rounded-3xl shadow-2xl">
+                        <div class="absolute -top-4 -right-4 bg-emerald-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-md">
+                            সার্টিফাইড নার্স
+                        </div>
+                        
+                        <div class="text-center space-y-4">
+                            <!-- Nurse Avatar / Image Placeholder (JPEG profile.jpeg) -->
+                            <div class="relative w-32 h-32 mx-auto rounded-full bg-teal-100 border-4 border-emerald-400 flex items-center justify-center overflow-hidden shadow-[0_0_20px_rgba(52,211,153,0.5)]">
+                                <img src="profile.jpeg" alt="মাহমুদ আব্বাস (রিফাত)" class="w-full h-full object-cover" onerror="this.style.display='none'; document.getElementById('hero-icon').style.display='block';">
+                                <i id="hero-icon" class="fa-solid fa-user-nurse text-6xl text-teal-700 hidden"></i>
+                            </div>
+
+                            <div>
+                                <h3 class="text-2xl font-bold text-white mb-1">মাহমুদ আব্বাস (রিফাত)</h3>
+                                <div class="bg-teal-900/50 inline-block px-3 py-1 rounded-lg border border-teal-500/30 mb-2">
+                                    <p class="text-xs font-medium text-teal-200">
+                                        <i class="fa-solid fa-hospital mr-1"></i> Clinical practice at Bangladesh medical University(PG)
+                                    </p>
+                                </div>
+                                <p class="text-sm font-semibold text-teal-300">প্রফেশনাল হোম কেয়ার স্পেশালিস্ট</p>
+                                <p class="text-xs text-slate-300 mt-1"><i class="fa-solid fa-location-pin text-red-400"></i> যাত্রাবাড়ি, ঢাকা</p>
+                            </div>
+
+                            <div class="bg-white/10 p-4 rounded-xl text-left space-y-2 text-sm border border-white/20">
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-square-check text-emerald-400"></i>
+                                    <span>দক্ষ ও যত্নশীল নার্সিং সেবা</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-square-check text-emerald-400"></i>
+                                    <span>আইভি ক্যাথেটার, স্যালাইন ও ইনজেকশন</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-square-check text-emerald-400"></i>
+                                    <span>অপারেশন পরবর্তী ক্ষত ড্রেসিং</span>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-square-check text-emerald-400"></i>
+                                    <span>বয়স্ক ও দীর্ঘমেয়াদী রোগীদের সেবা</span>
+                                </div>
+                            </div>
+
+                            <button onclick="openBookingModal()" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3.5 px-6 rounded-xl transition shadow-[0_4px_14px_0_rgba(16,185,129,0.39)]">
+                                বুকিং বা তথ্যের জন্য মেসেজ দিন
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-12">
+                <span class="text-teal-600 font-bold uppercase tracking-wider text-sm">আমার সম্পর্কে</span>
+                <h2 class="text-3xl font-extrabold text-slate-900">আপনার ও আপনার পরিবারের সুস্থতায় আমি নিবেদিত</h2>
+                <div class="w-16 h-1 bg-teal-600 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">আন্তরিক যত্ন ও পরিচর্যা</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        রোগীর শারীরিক সুস্থতার পাশাপাশি মানসিক স্বাচ্ছন্দ্য নিশ্চিত করা আমার মূল লক্ষ্য। অত্যন্ত ধৈর্য ও মমতার সাথে সেবা প্রদান করে থাকি।
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">সঠিক ও নিখুঁত টেকনিক</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        মেডিকেল নিয়মকানুন মেনে স্যালাইন, ইনজেকশন, ড্রেসিং, সেলাই কাটা এবং ক্যাথেটার পরিবর্তন অত্যন্ত সতর্কতার সাথে করা হয়।
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">সময়নিষ্ঠ সেবা</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        যাত্রাবাড়ি ও আশেপাশের যেকোনো এলাকায় কল পাওয়ার পর যথাসম্ভব দ্রুততম সময়ে বাসায় গিয়ে সেবা প্রদানের ব্যবস্থা করি।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-teal-600 font-bold uppercase tracking-wider text-sm">সেবাসমূহ</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">আমি যেসব নার্সিং সেবা প্রদান করি</h2>
+                <p class="text-slate-600 mt-2">হাসপাতালে ছোটাছুটি না করে ঘরে বসেই পান নির্ভরযোগ্য নার্সিং সার্ভিস</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-syringe"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">ইনজেকশন ও স্যালাইন (IV / IM)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            ডাক্তারের পরামর্শ অনুযায়ী স্যালাইন (IV Push/Drip) পুশ করা এবং সব ধরণের ইনজেকশন (IM, IV, SC) প্রয়োগ করা।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20স্যালাইন/ইনজেকশন%20সেবার%20জন্য%20যোগাযোগ%20করছি।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-bandage"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">ক্ষত ড্রেসিং ও সেলাই কাটা</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            অপারেশনের পর ড্রেসিং, কাটাছেঁড়া বা পোড়া ক্ষতের স্যাভলন/স্টেটাইল ড্রেসিং এবং সময়মত সেলাই (Stitch) কাটা।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20ক্ষত%20ড্রেসিং/সেলাই%20কাটার%20জন্য%20যোগাযোগ%20করছি।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-wheelchair"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">বয়স্ক ও প্যারালাইজড রোগীর যত্ন</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            বয়স্ক ও শয্যাশায়ী রোগীদের নিত্যদিনের মেজারমেন্ট, ওষুধ খাওয়ানো, স্পঞ্জিং ও বেড সোর (Bed Sore) প্রতিরোধ যত্ন।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20বয়স্ক%20রোগীর%20যত্নের%20জন্য%20যোগাযোগ%20করছি।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-vial-circle-check"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">ক্যাথেটার ও রাইলস টিউব পরিবর্তন</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            ইউরিনারি ক্যাথেটার (Catheter) লাগানো/খোলা এবং নাকের খাবার টিউব (Ryle's Tube) সঠিকভাবে স্থাপন ও কেয়ার।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20ক্যাথেটার/রাইলস%20টিউব%20সেবার%20জন্য%20কথা%20বলতে%20চাই।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-stethoscope"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">প্রেশার, সুগার ও নেবুলাইজার</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            নিয়মিত ব্লাড প্রেশার (BP), ব্লাড সুগার (Diabetes) চেকআপ, অক্সিজেন স্যাচুরেশন মেজার এবং নেবুলাইজেশন সার্ভিস।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20প্রেশার/সুগার/নেবুলাইজার%20সেবা%20দরকার।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 hover:border-teal-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                            <i class="fa-solid fa-bed-pulse"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-2">পোস্ট-অপারেটিভ ও আইসিইউ যত্ন</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            হাসপাতাল থেকে ডিসচার্জের পর রোগীর ঘরে সার্বক্ষণিক বা শিফটিং নার্সিং সাপোর্ট এবং মনিটরিং ব্যবস্থা।
+                        </p>
+                    </div>
+                    <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20পোস্ট-অপারেটিভ%20নার্সিং%20সেবার%20বিষয়ে%20জানতে%20চাই।" target="_blank" class="text-teal-600 font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                        সেবা বুক করুন <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Location Coverage -->
+    <section id="coverage" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-teal-800 to-slate-800 rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+                <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <span class="bg-teal-500/30 text-teal-200 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">সেবার আওতাভুক্ত এলাকা</span>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold">ঢাকা শহরের নির্দিষ্ট এলাকায় তাৎক্ষণিক হোম সার্ভিস</h2>
+                        <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+                            আমি প্রধানত নিচের এলাকাগুলোতে দ্রুত সেবা প্রদান করি। তবে প্রয়োজনে ঢাকার আশেপাশের এলাকাগুলোতেও পৌঁছে যাই।
+                        </p>
+                        
+                        <!-- Updated Locations List -->
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> শনি আখরা</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> রায়েরবাগ</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> দনিয়া</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> যাত্রাবাড়ি</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> ডেমরা</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> ওয়ারি</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> মতিঝিল</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> শাহবাগ</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> শেরেবাংলানগর</span>
+                            <span class="bg-white/10 text-white px-3 py-1.5 rounded-lg text-sm border border-white/20"><i class="fa-solid fa-location-dot text-teal-400 mr-1"></i> আজিমপুর</span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center space-y-4">
+                        <i class="fa-solid fa-truck-medical text-4xl text-teal-300"></i>
+                        <h3 class="text-xl font-bold">জরুরি সার্ভিস প্রয়োজন?</h3>
+                        <p class="text-xs sm:text-sm text-slate-200">
+                            কল করুন অথবা আপনার লোকেশন সহ হোয়াটসঅ্যাপে টেক্সট করুন।
+                        </p>
+                        <a href="tel:01815665169" class="block w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 rounded-xl transition shadow">
+                            <i class="fa-solid fa-phone mr-2"></i> 01815665169
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-3 mb-12">
+                <span class="text-teal-600 font-bold uppercase tracking-wider text-sm">যোগাযোগ করুন</span>
+                <h2 class="text-3xl font-extrabold text-slate-900">সরাসরি কল বা বার্তা পাঠান</h2>
+                <p class="text-slate-600">যেকোনো প্রশ্ন বা নার্সিং সার্ভিসের বুকিংয়ের জন্য নিচের ফর্মটি পূরণ করুন</p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8">
+                <!-- Contact Info Box -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-user-doctor"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-base">নার্সের নাম</h4>
+                            <p class="text-slate-600 font-medium">মাহমুদ আব্বাস (রিফাত)</p>
+                            <p class="text-xs text-slate-400 mt-1">Clinical practice at Bangladesh medical University(PG)</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-base">মোবাইল ও হোয়াটসঅ্যাপ</h4>
+                            <a href="tel:01815665169" class="text-teal-600 font-bold hover:underline block text-lg">01815665169</a>
+                            <p class="text-xs text-slate-500">হোয়াটসঅ্যাপে যেকোনো সময় মেসেজ পাঠাতে পারেন</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-base">বর্তমান স্থান / অ্যাড্রেস</h4>
+                            <p class="text-slate-600">যাত্রাবাড়ি, ঢাকা</p>
+                            <p class="text-xs text-slate-500">ঢাকা শহরের নির্দিষ্ট এলাকায় দ্রুত সার্ভিস দেওয়া হয়</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links Block -->
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4 hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="w-full">
+                            <h4 class="font-bold text-slate-800 text-base mb-2">সোশ্যাল মিডিয়া</h4>
+                            <div class="flex gap-4">
+                                <a href="https://www.facebook.com/share/1HUAhtKjGY/" target="_blank" class="flex-1 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white transition py-2 rounded-lg text-center font-semibold text-sm flex justify-center items-center gap-2">
+                                    <i class="fa-brands fa-facebook"></i> Facebook
+                                </a>
+                                <a href="https://www.instagram.com/mahamode_abbas?stkn=NW4xZG5nZDY3eXpo" target="_blank" class="flex-1 bg-pink-50 text-pink-600 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-pink-500 hover:to-purple-500 hover:text-white transition py-2 rounded-lg text-center font-semibold text-sm flex justify-center items-center gap-2">
+                                    <i class="fa-brands fa-instagram"></i> Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Booking Form -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-md">
+                        <h3 class="text-xl font-bold text-slate-800 mb-4">অনলাইন সার্ভিস রিকোয়েস্ট</h3>
+                        
+                        <form id="serviceForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">রোগী/স্বজনের নাম *</label>
+                                    <input type="text" id="clientName" required placeholder="আপনার নাম লিখুন" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">মোবাইল নম্বর *</label>
+                                    <input type="tel" id="clientPhone" required placeholder="01XXXXXXXXX" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">প্রয়োজনীয় সেবা *</label>
+                                    <select id="serviceType" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none text-sm text-slate-700">
+                                        <option value="ইনজেকশন বা স্যালাইন">ইনজেকশন বা স্যালাইন</option>
+                                        <option value="ক্ষত ড্রেসিং / সেলাই কাটা">ক্ষত ড্রেসিং / সেলাই কাটা</option>
+                                        <option value="ক্যাথেটার বা রাইলস টিউব">ক্যাথেটার বা রাইলস টিউব</option>
+                                        <option value="বয়স্ক রোগীর পরিচর্যা">বয়স্ক রোগীর পরিচর্যা</option>
+                                        <option value="প্রেশার / সুগার মাপানো">প্রেশার / সুগার মাপানো</option>
+                                        <option value="অন্যান্য সেবা">অন্যান্য সেবা</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">আপনার ঠিকানা/লোকেশন *</label>
+                                    <input type="text" id="clientLocation" required placeholder="যেমন: যাত্রাবাড়ি, ঢাকা" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none text-sm">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">রোগীর শারীরিক অবস্থা / অতিরিক্ত তথ্য</label>
+                                <textarea id="clientDetails" rows="3" placeholder="রোগীর মূল সমস্যা বা কী সেবা লাগবে সংক্ষেপে লিখুন..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none text-sm"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3.5 rounded-xl transition shadow-md flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                                <span>হোয়াটসঅ্যাপের মাধ্যমে রিকোয়েস্ট পাঠান</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-12 bg-white border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-2xl font-bold text-center text-slate-800 mb-8">সাধারণ জিজ্ঞাসাসমূহ (FAQ)</h3>
+            
+            <div class="space-y-4">
+                <details class="group bg-slate-50 p-4 rounded-xl border border-slate-200">
+                    <summary class="font-bold text-slate-800 cursor-pointer flex justify-between items-center">
+                        ১. আপনি ঠিক কোন কোন এলাকায় হোম সার্ভিস দেন?
+                        <span class="text-teal-600 transition group-open:rotate-180"><i class="fa-solid fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        আমি মূলত শনি আখরা, রায়েরবাগ, দনিয়া, যাত্রাবাড়ি, ডেমরা, ওয়ারি, মতিঝিল, শাহবাগ, শেরেবাংলানগর এবং আজিমপুর এলাকায় সার্ভিস দিয়ে থাকি।
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-4 rounded-xl border border-slate-200">
+                    <summary class="font-bold text-slate-800 cursor-pointer flex justify-between items-center">
+                        ২. জরুরি প্রয়োজনে কত দ্রুত পৌঁছাতে পারবেন?
+                        <span class="text-teal-600 transition group-open:rotate-180"><i class="fa-solid fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        সেবা প্রদানকারী এলাকার দূরত্বের ওপর নির্ভর করে যোগাযোগের পর যথাসম্ভব দ্রুততম সময়ের মধ্যে পৌঁছানোর চেষ্টা করি।
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-4 rounded-xl border border-slate-200">
+                    <summary class="font-bold text-slate-800 cursor-pointer flex justify-between items-center">
+                        ৩. সার্ভিসের মূল্য বা ফি কীভাবে নির্ধারিত হয়?
+                        <span class="text-teal-600 transition group-open:rotate-180"><i class="fa-solid fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        সেবার ধরন (যেমন- ড্রেসিং, ইনজেকশন, স্যালাইন বা ক্যাথেটার) এবং দূরত্বের ওপর ভিত্তি করে সঠিক ও সুলভ ফি আলোচনা সাপেক্ষে নির্ধারণ করা হয়।
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 mb-16 sm:mb-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <div class="flex items-center justify-center gap-2 text-white font-bold text-xl">
+                <i class="fa-solid fa-user-nurse text-teal-400"></i>
+                <span>মাহমুদ আব্বাস (রিফাত)</span>
+            </div>
+            <p class="text-sm max-w-md mx-auto text-slate-400">
+                যাত্রাবাড়ি, ঢাকা। পেশাদার, স্বাস্থ্যসম্মত ও মমতাময়ী নার্সিং সেবা এখন আপনার হাতের নাগালে।
+            </p>
+            
+            <!-- Footer Social Links -->
+            <div class="flex justify-center gap-6 text-xl text-teal-400 pt-2">
+                <a href="tel:01815665169" class="hover:text-white transition"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://wa.me/8801815665169" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/1HUAhtKjGY/" target="_blank" class="hover:text-blue-500 transition"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mahamode_abbas?stkn=NW4xZG5nZDY3eXpo" target="_blank" class="hover:text-pink-500 transition"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+            <p class="text-xs text-slate-500 border-t border-slate-800 pt-6">
+                &copy; 2026 মাহমুদ আব্বাস (রিফাত)। সর্বস্বত্ব সংরক্ষিত।
+            </p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile Bottom Bar -->
+    <div class="sm:hidden fixed bottom-0 inset-x-0 bg-white border-t border-slate-200 p-3 z-50 flex items-center justify-around shadow-lg">
+        <a href="tel:01815665169" class="flex-1 mr-2 bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-4 rounded-xl text-center text-sm flex items-center justify-center gap-2">
+            <i class="fa-solid fa-phone text-emerald-400"></i>
+            <span>কল দিন</span>
+        </a>
+        <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20আমার%20জরুরি%20নার্সিং%20সেবা%20দরকার।" target="_blank" class="flex-1 ml-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl text-center text-sm flex items-center justify-center gap-2 pulse-animation">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>হোয়াটসঅ্যাপ</span>
+        </a>
+    </div>
+
+    <!-- Booking Modal Dialog -->
+    <div id="bookingModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl font-bold p-2">
+                &times;
+            </button>
+            
+            <div class="text-center space-y-2 mb-6">
+                <div class="w-12 h-12 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center mx-auto text-xl">
+                    <i class="fa-solid fa-calendar-check"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-800">দ্রুত যোগাযোগ করুন</h3>
+                <p class="text-xs text-slate-500">রিফাত সাহেবের সাথে সরাসরি কথা বলতে নিচের অপশন ব্যবহার করুন</p>
+            </div>
+
+            <div class="space-y-3">
+                <a href="tel:01815665169" class="w-full bg-slate-800 text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-3 hover:bg-slate-900 transition">
+                    <i class="fa-solid fa-phone text-teal-400 text-lg"></i>
+                    <span>সরাসরি কল করুন (01815665169)</span>
+                </a>
+                
+                <a href="https://wa.me/8801815665169?text=হ্যালো%20রিফাত%20ভাই,%20আমার%20জরুরি%20নার্সিং%20সেবা%20দরকার।" target="_blank" class="w-full bg-emerald-600 text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-3 hover:bg-emerald-700 transition">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>হোয়াটসঅ্যাপে চ্যাট করুন</span>
+                </a>
+            </div>
+
+            <button onclick="closeBookingModal()" class="w-full text-center text-xs text-slate-400 mt-4 underline">
+                বন্ধ করুন
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Functions -->
+    <script>
+        function openBookingModal() {
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('clientName').value;
+            const phone = document.getElementById('clientPhone').value;
+            const service = document.getElementById('serviceType').value;
+            const location = document.getElementById('clientLocation').value;
+            const details = document.getElementById('clientDetails').value;
+
+            // Construct WhatsApp Message
+            let message = `*নতুন নার্সিং সেবা রিকোয়েস্ট*\n\n`;
+            message += `👤 নাম: ${name}\n`;
+            message += `📱 ফোন: ${phone}\n`;
+            message += `🩺 সেবা: ${service}\n`;
+            message += `📍 ঠিকানা: ${location}\n`;
+            if (details) {
+                message += `📝 বিবরণ: ${details}\n`;
+            }
+
+            const encodedMessage = encodeURIComponent(message);
+            // Updated WhatsApp Number
+            const whatsappUrl = `https://wa.me/8801815665169?text=${encodedMessage}`;
+            
+            // Redirect to WhatsApp
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
